@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #D4D4D2;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#logo {
+    margin: 25px;
+    font-weight: bold;
+    color: #2E302F;
+    font-size: 50px;
+}
+
+main {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*
+#name-input-page {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#nameHolder {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2E302F;
+}
+
+#input-bar {
+    display: flex;
+    gap: 5px;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#submitBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#submitBtn:hover {
+    background-color: #2E302F;
+    color: #D4D4D2;
+    cursor: pointer;
+}
+    /*
+#box-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#box-2 {
+    width: 25%;
+    background-color: #2E302F;
+}
+    
+*/
+#fun-page {
+    height: 500px;
+    width: 1000px;
+}
+
+#ambient-img {
+    width: 100%;
+    height: 20%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.letters {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.letters span {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+}
+
+.alt-1 {
+    background-color: #b9bfbf;
+}
+
+.alt-2 {
+    background-color: #929493;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
